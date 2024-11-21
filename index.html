@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SWF2JS Example</title>
+    <script src="C:\Users\thero\Downloads\swf2js-master\swf2js.js"></script>
+</head>
+<body>
+    <!-- Container for the SWF -->
+    <div id="swf-container"></div>
+    
+    <script>
+        // Load the SWF file
+        swf2js.load('dinner.swf', {
+            id: 'swf-container', // The target container
+            width: 800, // Width of the SWF
+            height: 600 // Height of the SWF
+        });
+    </script>
+</body>
+</html>
