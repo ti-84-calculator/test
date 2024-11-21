@@ -27163,11 +27163,6 @@ if (!("swf2js" in window)){(function(window)
                     }
                 }
             };
-            xmlHttpRequest.send(null);
-        } else {
-            alert("please set swf url");
-        }
-    };
 
     /**
      * @param url
